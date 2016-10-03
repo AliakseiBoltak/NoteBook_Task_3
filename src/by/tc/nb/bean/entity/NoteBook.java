@@ -30,13 +30,7 @@ public class NoteBook {
 		}
 	}
 	
-	public void fillNoteBook(List<Note> listForAdd) {
-		if (notes.size() == 0) {
-			this.notes = new ArrayList<>(listForAdd);
-		} else {
-			listForAdd.stream().forEach((element) -> notes.add(element));
-		}
-	}
+	
 
 	@Override
 	public String toString() {
